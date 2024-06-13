@@ -30,7 +30,7 @@ public class AnimalAdapter extends RecyclerView.Adapter<AnimalAdapter.AnimalView
     @Override
     public void onBindViewHolder(@NonNull AnimalViewHolder holder, int position) {
         Animal animal = animalList.get(position);
-        holder.rptCountry.setText("縣市: " + animal.getRpt_country());
+        holder.rptCountry.setText(animal.getRpt_country());
         holder.maxStayDogNum.setText("最大收容量 (狗): " + animal.getMax_stay_dog_num());
         holder.endDogMaxPercent.setText("狗的最大百分比: " + animal.getEnd_dog_max_percent());
         holder.endCatMaxPercent.setText("貓的最大百分比: " + animal.getEnd_cat_max_percent());
