@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/rpt_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="縣市" />
+
+    <TextView
+        android:id="@+id/max_stay_dog_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="最大收容量 (狗)" />
+
+    <TextView
+        android:id="@+id/max_stay_cat_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="最大收容量 (貓)" />
+
+    <TextView
+        android:id="@+id/end_dog_max_percent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="狗的最大百分比" />
+
+    <TextView
+        android:id="@+id/end_cat_max_percent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="貓的最大百分比" />
+</LinearLayout>
